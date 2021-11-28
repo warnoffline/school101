@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: #1C1B1F;
+    width: 100%;
+    height: 100%;
+}
+
+.glav_str{
+    display: flex;
+    flex-direction: row;
+}
+.txt_glav{
+    width: 45%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    margin-bottom: 0px;
+}
+.txt_glav1{
+    width: 60%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    height: 550px;
+}
+.img_glav{
+    width: 55%;
+    height: 700px;
+}
+.img_glav1{
+    width: 100%;
+    height: 700px;
+}
+
+.modal{
+    display: block;
+    position: fixed;
+    background: linear-gradient(0deg, rgba(208, 188, 255, 0.14), rgba(208, 188, 255, 0.14)), #1C1B1F;
+    overflow-x: hidden;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.rasp, .photo, .svyaz, .glavnaya{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #CECCCC;
+}
+.nav_link{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.vizitka{
+    width:100%;
+    height: 500px;
+    max-height: 1200px;
+    background: linear-gradient(0deg, rgba(111, 78, 154, 0.2), rgba(111, 78, 154, 0.2)), #1C1B1F;
+}
+.megatxt{
+    width: 100%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.megatxt1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 15px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.inform{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/schoolback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.txt_inform1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+
+    margin-bottom: 10px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.txt_inf{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.history{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.txt_hst{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+    width: 55%;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
+}
+table{
+    border: 1px solid black ;
+    border-spacing: 0px;
+}
+td,th{
+    border: 1px solid black;
+    background: linear-gradient(0deg, rgba(208, 188, 255, 0.14), rgba(208, 188, 255, 0.14)), #1C1B1F;;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.gallery {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.gallery a {
+    display:inline-block;
+    height:210px;
+    position:relative;
+    width:310px;
+}
+.gallery a img {
+    border:0px solid #fff;
+    display:block;
+    height:100%;
+    left:0px;
+    position:absolute;
+    top:0px;
+    width:100%;
+    z-index:1;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -webkit-transition-duration:0.4s;
+    -moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -moz-transition-duration:0.4s;
+    -o-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -o-transition-duration:0.4s;
+    transition-property:width, height, top, bottom, left, right, z-index, border;
+    transition-duration:0.4s;
+}
+.gallery a:hover img:hover {
+    border:0px solid black;
+    cursor:default;
+    height:150%;
+    width:150%;
+    z-index:15;
+
+    box-shadow:1px 1px 5px #888;
+    -moz-box-shadow:1px 1px 5px #888;
+    -webkit-box-shadow:1px 1px 5px #888;
+    -webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -webkit-transition-duration:0.4s;
+    -moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -moz-transition-duration:0.4s;
+    -o-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -o-transition-duration:0.4s;
+    transition-property:width, height, top, bottom, left, right, z-index, border;
+    transition-duration:0.4s;
+}
+
+    
+
+@media(max-width: 1200px) and (min-width:901px){
+    .txt_glav{
+        width: 100%;
+        margin:0;
+    }
+    .txt_glav1{
+        margin-left: 30px;
+    }
+    .img_glav{
+        width:100%;
+        height: 500px;
+    }
+    .img_glav1{
+        width:100%;
+        height: 550px;
+    }
+    .vizitka{
+        height: 600px;
+    }
+    .txt_inf{
+        width: 70%;
+    }
+    .txt_hst{
+        width: 60%;
+    }
+}
+@media (max-width:900px){
+    table{
+        width: 90%;
+    }
+    thead{
+        display: none;
+    }
+    tr{
+        display: block;
+    }
+    td{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    .glav_str{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .txt_glav{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .txt_glav1{
+        width: 70%;
+        font-size: 14px;
+        height: 200px;
+        line-height: 25px;
+    }
+    .img_glav{
+        width: 100%;
+        height: 260px;
+    }
+    .img_glav1{
+        height: 260px;
+    }
+    .vizitka{
+        width: 100%;
+        max-height: 1500px;
+        height: 100%;
+    }
+    .megatxt, .megatxt1, ul{
+        line-height: 2;
+        font-size: 14px;
+        margin: 0;
+        width: 80%;
+    }
+    .txt_inform1{
+        font-size: 14px;
+        line-height: 2;
+    }
+    .inform{
+        height: 100%;
+        max-height: 10000px;
+        padding-top: 10px;
+    }
+    .txt_inf{
+        width: 80%;
+        
+    }
+    .txt_hst{
+        width: 90%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .modal{
+        position: fixed;
+        width: 100%;
+        height: 35px;
+        padding: 0;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        top: -14px;
+        margin-top: 0;
+        z-index: 15;
+    }
+    .rasp, .photo, .svyaz, .glavnaya{
+        font-size: 12px;
+    }
+    .gallery a img{
+        display: flex;
+        position: inherit;
+    }
+    .gallery a{
+        display: flex;
+        position: inherit;
+        height: 200px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .gallery{
+        width: 100%;
+        padding-top: 0;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery a:hover img:hover {
+        border:0px solid black;
+        cursor:default;
+        height:100%;
+        width:100%;
+        z-index:10;
+        transition: 0.6s;
+        transform: scale(1.2);
+    
+    }
+    .gallery a img {
+        border:0px solid #fff;
+        display:flex;
+        height:100%;
+        left:0px;
+        position: inherit;
+        top:0px;
+        width:100%;
+        z-index:1;
+    
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        user-select: none;
+    }
+}
